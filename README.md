@@ -1,8 +1,8 @@
 ## System Description
-- Proof of Concept of an Event Driven Architecture with two channels.
-- Producer simulates a telemtry system, in which the user manually input the decibel measurement by console.
-- Channel #1 is a RabbitMQ message broker.
-- Channel #2 is a SignalR hub which behaves as a consumer for the events of the RabbitMQ queue ("telemtry" queue). And also behaves as a producer/publisher for the SignalR hub (TELEMETRY_CONTROLLER_URI).
+- Proof Of Concept of an Event-Driven Architecture with 2 channels.
+- Producer simulates a telemetry system which outputs decibel measurements (in this POC user manually inputs the decibel measurement by console). Producer is publishing messages on the 'telemetry' queue of the Channel #1.
+- Channel #1 is a RabbitMQ message broker with one queue ('telemetry' queue)
+- Channel #2 is a SignalR hub which behaves as a consumer for the events of the RabbitMQ 'telemetry' queue ("telemtry" queue). And also behaves as a producer/publisher for the SignalR hub (TELEMETRY_CONTROLLER_URI).
 - Consumer is a final client receiving messages published in the SignalR hub.
 
 ## How to setup and use the system?
