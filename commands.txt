@@ -1,0 +1,6 @@
+## VS Code Command Reference
+
+**Install .NET packages (from Terminal)**
+```
+dotnet restore
+```

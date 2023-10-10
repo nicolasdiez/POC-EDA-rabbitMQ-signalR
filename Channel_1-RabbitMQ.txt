@@ -1,0 +1,21 @@
+## RabbitMQ Command Reference
+
+**RabbitMQ start server (initiate Channel 1)**
+```
+rabbitmq-server start
+```
+
+**RabbitMQ server status**
+```
+rabbitmqctl status
+```
+
+**RabbitMQ show queues and its messages**
+```
+rabbitmqctl list_queues
+```
+
+**RabbitMQ clear all messages from a queue**
+```
+rabbitmqctl purge_queue queue_name
+```

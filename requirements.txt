@@ -1,0 +1,5 @@
+.NET version 6.0.414 x64
+Erland OTP 25.3.2
+rabbitmq server 3.12.6
+
+[optional] VS Code C# extension https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp

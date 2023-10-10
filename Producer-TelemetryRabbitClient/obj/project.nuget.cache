@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xzXV6r+YOaGtpFoOMgKuw5UA5RpTUWaA0vOWE0+83mF8fAz1EHQXVI6wC7a9WkqKPwMo8B5jeBv4fcbguWqJ8A==",
+  "success": true,
+  "projectFilePath": "D:\\POC-EDA-rabbitMQ-signalR\\Producer-TelemetryRabbitClient\\TelemetryRabbitClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicol\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
